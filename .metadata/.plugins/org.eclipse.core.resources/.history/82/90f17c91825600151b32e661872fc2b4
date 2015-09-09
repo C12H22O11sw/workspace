@@ -1,0 +1,14 @@
+package levle_0;
+
+import javax.swing.JOptionPane;
+
+public class morningToDo {
+public static void main(String[] args) {
+	JOptionPane.showMessageDialog(null, "Build another robot");
+	JOptionPane.showMessageDialog(null, "bring the robot to Robolink.inc");
+	JOptionPane.showMessageDialog(null, "Give the robot a name" );
+	JOptionPane.showMessageDialog(null, "Program the robot");
+	JOptionPane.showMessageDialog(null, "reapeat");
+}
+
+}

@@ -9,7 +9,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class FlamingNinjaStar {
 	public static void main(String[] args) {
 
-		int baseSize = 300;		//the size of the black part of the star
+		int baseSize = 200;		//the size of the black part of the star
 		int flameSize = 200;		//the length of the flaming arms
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
@@ -20,7 +20,7 @@ public class FlamingNinjaStar {
 			Robot name = new Robot();
 			name.penDown();
 		// 12. Set the robot speed to 10
-			
+			name.setSpeed(10);
 		// 13. Make all the code below repeat 25 times
 
 			// 2. Turn the robot 1/8 of a circle

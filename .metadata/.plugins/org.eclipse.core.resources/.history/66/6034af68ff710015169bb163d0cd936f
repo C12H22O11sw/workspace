@@ -1,0 +1,35 @@
+package level_0;
+
+public class beiberFeever {
+
+	public static void main(String[] args) {
+		
+	
+		// TODO Auto-generated method stub
+
+	
+	//Bieber Fever challenge:
+	//1: Write a program that uses a for loop to print
+	for(int i=0; i< 10; i++){
+		
+		for(int I=0; I<3; I++){
+			System.out.println("baby");
+		}
+		if(I%2==0){
+			System.out.println("oh");
+		}
+		else{
+			System.out.println("no");
+		}
+	}
+	//baby
+	//baby
+	//baby
+	//oh
+	//Code should only contain one “baby”, and one “oh”
+
+	//2: Every 2nd time the “oh” should be “no”
+
+	//3: Each chorus ends with “I thought you'd always be mine”.
+}
+}

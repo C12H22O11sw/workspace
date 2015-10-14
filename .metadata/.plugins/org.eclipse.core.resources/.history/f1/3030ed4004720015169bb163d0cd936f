@@ -1,0 +1,21 @@
+package level_0;
+
+public class potatos {
+	public static void main(String[] args) {
+		
+		for(int i=0; i<1; i++)
+		{
+			for(int I=0; I<8; I++){
+				if(I == 7){
+					System.out.println(I+1 + "potato");
+				}
+				else{
+					System.out.println("more");
+				}
+				
+			
+		}
+		}
+
+}
+}

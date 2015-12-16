@@ -8,7 +8,6 @@ public static void main(String[]args){
 	int distance = 10;
 	int degrees =144;
 	int x = 0;
-	int y =0;
 	//360-32=328
 	robot.setX(x);
 	robot.setY(500);
